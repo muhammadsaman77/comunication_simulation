@@ -18,7 +18,7 @@ const Server = ({ loading, duration }) => {
             delay: 0.5,
           }}
         >
-          Data
+          Response
         </motion.div>
       )}
     </div>
