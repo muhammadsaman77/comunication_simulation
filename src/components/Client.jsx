@@ -18,7 +18,7 @@ const Client = ({ loading, duration }) => {
             delay: 0.5,
           }}
         >
-          Data
+          Request
         </motion.div>
       )}
     </div>
