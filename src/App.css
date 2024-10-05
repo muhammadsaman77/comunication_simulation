@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.connection-line {
+  border-top: 2px dashed #ccc;
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+  translate: 0 50%;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.client,
+.internet,
+.publisher,
+.server,
+.broker {
+  margin: 20px;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block; /* Agar bisa ditampilkan berdampingan */
+  vertical-align: top; /* Memastikan penempatan yang rapi */
+}
+
+.icon {
+  width: 50px; /* Ukuran ikon */
+  height: auto; /* Menjaga aspek rasio */
+  margin-bottom: 10px; /* Jarak antara ikon dan teks */
+}
+
+.data-sent,
+.data-received,
+.data-flow {
+  padding: 10px;
+  position: absolute;
+  translate: 0 -180%;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  display: inline-block; /* Agar terlihat sebagai blok */
+  transition: transform 0.5s; /* Transisi halus */
+}
+
+.top {
+  transform: translateX(10%) translateY(30%) rotate(-25deg);
+}
+
+.bottom {
+  transform: translateX(-20%) translateY(-40%) rotate(24deg);
+}
